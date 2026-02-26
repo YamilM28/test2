@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BookNook</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book Library</title>
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="input-section">
+        <h3>Add a New Book</h3>
+        <input type="text" id="titleIn" placeholder="Book Title">
+        <input type="text" id="genreIn" placeholder="Genre">
+        <input type="url" id="coverIn" placeholder="Cover Image URL">
+        <button onclick="addBook()" class="add-btn">Add to Library</button>
+    </div>
+
+    <div id="libraryContainer"></div>
+
+    <!-- Linking the JS file at the bottom for better performance -->
+    <script src="script.js"></script>
+</body>
+</html>
+ 
